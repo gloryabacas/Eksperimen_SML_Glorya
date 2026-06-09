@@ -7,6 +7,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import mlflow
 import mlflow.sklearn
 
+mlflow.sklearn.autolog()
 # =========================
 # 1. LOAD DATASET
 # =========================
