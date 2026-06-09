@@ -11,7 +11,7 @@ import mlflow.sklearn
 # 1. LOAD DATASET
 # =========================
 # pakai hasil preprocessing kamu
-df = pd.read_csv("../preprocessing/dataset_preprocessing.csv")
+df = pd.read_csv("dataset_preprocessing.csv")
 
 # pastikan kolom target sesuai dataset kamu
 target_col = "target"
